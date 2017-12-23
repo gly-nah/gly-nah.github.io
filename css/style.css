@@ -18,8 +18,15 @@
     border-left-color: #111111;
 }
 
-@media (max-width: 767px) {
-    .navbar-collapse .nav > .divider-vertical {
-        display: none;
-     }
+@media (max-width: 991px) {
+    .navbar .divider-vertical {
+    height: 1px;
+    margin-left: 3px;
+    margin-right: 0px;
+    margin-top: 5px;
+    border-top: 20px;
+    
+    border-right: 0px solid #ffffff;
+    border-left: 40px solid #ffffff;
+	}
 }
