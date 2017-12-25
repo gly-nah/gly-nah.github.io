@@ -51,7 +51,7 @@
 	padding-bottom: 20px;
 	color: #fff;
 	text-align: center;
-	top: 25rem;
+	top: 30rem;
 }
 
 .carousel-bot {
@@ -68,15 +68,16 @@
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-	height: 850px;
+	height: 900px;
 	background-color: #777;
 }
 .carousel-item > img {
+	margin-bottom: 62px;
 	position: absolute;
 	top: 0;
 	left: 0;
 	min-width: 100%;
-	height: 850px;
+	height: 900px;
 }
 
 @media (max-width: 991px) {
@@ -136,4 +137,22 @@ img {
 .marketing .col-lg-6 p {
 	margin-right: .75rem;
 	margin-left: .75rem;
+}
+
+#profile-padding {
+	margin-top: 75px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
 }
