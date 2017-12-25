@@ -38,47 +38,102 @@
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+	margin-bottom: 4rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-top {
-  position: absolute;
-  right: auto;
-  bottom: 20px;
-  left: auto;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
-  top: 25rem;
+	position: absolute;
+	right: auto;
+	bottom: 20px;
+	left: auto;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+	top: 25rem;
 }
 
 .carousel-bot {
-  position: absolute;
-  right: 15%;
-  bottom: 3rem;
-  left: 15%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
+	position: absolute;
+	right: 15%;
+	bottom: 3rem;
+	left: 15%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 850px;
-  background-color: #777;
+	height: 850px;
+	background-color: #777;
 }
 .carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 850px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 850px;
+}
+
+@media (max-width: 991px) {
+    .carousel-item {
+    	height: 500px;
+		background-color: #777;
+	}
+}
+
+@media (max-width: 991px) {
+    .carousel-item > img {
+    	position: center;
+		top: 0;
+		min-width: 100%;
+		height: 500px;
+	}
+}
+
+@media (max-width: 991px) {
+    .carousel-top {
+		position: absolute;
+		right: auto;
+		bottom: 20px;
+		left: 10rem;
+		z-index: 10;s
+		padding-top: 20px;
+		padding-bottom: 20px;
+		color: #fff;
+		text-align: center;
+		top: 13rem;
+	}
+}
+
+@media (max-width: 991px){
+	.display-1 {
+		font-size: 5rem;
+  		font-weight: 300;
+  		line-height: 1.2;
+	}
 }
 
 img {
-    object-fit: cover;
+	object-fit: cover;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-6 {
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+.marketing h2 {
+	font-weight: 400;
+}
+.marketing .col-lg-6 p {
+	margin-right: .75rem;
+	margin-left: .75rem;
 }
