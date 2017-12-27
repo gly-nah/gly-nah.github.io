@@ -20,6 +20,10 @@
     border-left-color: #111111;
 }
 
+.navbar-transparent{
+	background: transparent;
+}
+
 @media (max-width: 991px) {
     .navbar .divider-vertical {
     height: 1px;
@@ -123,6 +127,22 @@ img {
 	object-fit: cover;
 }
 
+#home, #about, #photography{
+	padding-top: 100px;
+	margin-top: -100px;
+}
+
+#resume{
+	padding-top: 50px;
+	margin-top: -50px;
+}
+
+#projects{
+	padding-top: 75px;
+	margin-top: -75px;
+}
+
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
@@ -147,7 +167,7 @@ img {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -155,4 +175,22 @@ img {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+}
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
 }
