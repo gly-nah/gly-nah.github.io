@@ -127,7 +127,7 @@ img {
 	object-fit: cover;
 }
 
-#home, #about, #photography{
+#home, #myCarousel, #about, #photography{
 	padding-top: 100px;
 	margin-top: -100px;
 }
@@ -142,19 +142,17 @@ img {
 	margin-top: -75px;
 }
 
-
-/* MARKETING CONTENT
+/* About
 -------------------------------------------------- */
-/* Center align the text within the three columns below the carousel */
 
-.marketing .col-lg-6 {
+.about-section .col-lg-6 {
 	margin-bottom: 1.5rem;
 	text-align: center;
 }
-.marketing h2 {
+.about-section h2 {
 	font-weight: 400;
 }
-.marketing .col-lg-6 p {
+.about-section .col-lg-6 p {
 	margin-right: .75rem;
 	margin-left: .75rem;
 }
@@ -163,8 +161,30 @@ img {
 	margin-top: 75px;
 }
 
-/* Featurettes
+
+/* Projects
+-------------------------------------------------- */
+
+.proj-section .col-lg-6 {
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+.proj-section h2 {
+	font-weight: 400;
+}
+.proj-section .col-lg-6 p {
+	margin-right: .75rem;
+	margin-left: .75rem;
+}
+
+.proj-h2 {
+	padding-bottom: 25px;
+}
+/* Experience
 ------------------------- */
+.exp-section {
+	margin-bottom: 6rem;
+}
 
 .featurette-divider {
   margin: 3rem 0; /* Space out the Bootstrap <hr> more */
@@ -193,4 +213,27 @@ body {
 
 .pagination {
   margin-bottom: 30px;
+}
+
+/* Footer
+------------------------- */
+
+footer {
+	padding:50px 0 65px
+}
+
+.icon-bg {
+	color: #657da5;
+}
+
+.list-inline {
+	margin: 0;
+	padding: 0;
+}
+.copyright {
+	font-size:14px;
+	margin-bottom:0;
+	margin-top: 15px;
+	text-align:center;
+	color: #657da5;
 }
