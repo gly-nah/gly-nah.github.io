@@ -197,6 +197,14 @@ img {
   letter-spacing: -.05rem;
 }
 
+.exp-img {
+	margin-bottom: 15px;
+}
+
+.exp-col {
+	text-align: center; 
+}
+
 body {
   padding-top: 54px;
 }
