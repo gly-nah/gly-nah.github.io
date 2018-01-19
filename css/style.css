@@ -180,6 +180,11 @@ img {
 .proj-h2 {
 	padding-bottom: 25px;
 }
+
+.proj-center {
+	text-align: center; 
+}
+
 /* Experience
 ------------------------- */
 .exp-section {
